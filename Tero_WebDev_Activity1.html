@@ -11,109 +11,96 @@
             #header {
                 height: 140px;
                 margin-bottom: 15px;
-                background-color: #0d7963;
             }
             
             #header > p {
-                color: white;
-                font-family: Helvetica-neue, Helvetica, Arial, sans-serif;
                 position: absolute;
-                font-size:50px;
                 top: 2px;
-                right: 0px;
+                right: 600px;
             }
             
             #header > p1 {
-                color: white;
-                font-family: Helvetica-neue, Helvetica, Arial, sans-serif;
                 position: absolute;
-                font-size:25px;
                 top: 100px;
-                right: -120px;
+                right: 470px;
             }
 
             #content {
                 width: 690px;
                 height: 450px;
-                background-color: #0d7963;
                 float: right;
             }
             
             #content > p {
-                color: white;
-                font-family: Helvetica-neue, Helvetica, Arial, sans-serif;
                 position: absolute;
-                font-size:50px;
                 top: 300px;
-                right: -160px;
+                right: 400px;
             }
             
             #content > p1 {
-                color: white;
-                font-family: Helvetica-neue, Helvetica, Arial, sans-serif;
                 position: absolute;
-                font-size:25px;
                 top: 400px;
-                right: -260px;
+                right: 285px;
             }
 
             #sidebar {
                 width: 270px;
                 height: 450px;
                 margin-right: 15px;
-                background-color: #0d7963;
                 float: left;
             }
             
             #sidebar > p {
-                color: white;
-                font-family: Helvetica-neue, Helvetica, Arial, sans-serif;
                 position: absolute;
-                font-size:50px;
                 top: 300px;
-                right: 400px;
+                right: 950px;
             }
             
             #sidebar > p1 {
-                color: white;
-                font-family: Helvetica-neue, Helvetica, Arial, sans-serif;
                 position: absolute;
-                font-size:25px;
-                top: 400px;
-                right: 430px;
+                top: 410px;
+                right: 930px;
+            }
+
+            #sidebar > p2 {
+                position: absolute;
+                top: 440px;
+                right: 930px;
             }
 
             #footer {
                 height: 70px;
                 margin-top: 15px;
-                background-color: #0d7963;
             }
             
             #footer > p {
-                color: white;
-                font-family: Helvetica-neue, Helvetica, Arial, sans-serif;
                 position: absolute;
-                font-size:50px;
                 top: 585px;
-                right: 0px;
+                right: 640px;
             }
             
             #footer > p1 {
-                color: white;
-                font-family: Helvetica-neue, Helvetica, Arial, sans-serif;
                 position: absolute;
-                font-size:25px;
                 top: 660px;
-                right: -110px;
+                right: 210px;
             }
 
             #clear {
                 clear: both;
             }
-            
-            div > p {
-                x: 25;
-                position: fixed;
+
+            .generic {
+                color: white;
+                font-family: Helvetica-neue, Helvetica, Arial, sans-serif;
+                background-color: #0d7963;
+            }
+
+            .generic > p {
+                font-size:50px;
+            }
+
+            .generic > p1,p2 {
+                font-size:25px;
             }
         </style>
     </head>
@@ -121,27 +108,28 @@
     <body>
         <div id="wrap">
 
-        <div id="header">
+        <div id="header" class="generic">
             <p>Heather</p>
             <p1>31.304951685^2 x 11.8321595662^2</p1>
         </div>
 
-        <div id="content">
+        <div id="content" class="generic">
             <p>Kahntent</p>
             <p1>26.2678510731^2 x 21.2132034356^2</p1>
         </div>
 
-        <div id="sidebar">
+        <div id="sidebar" class="generic">
             <p>Saydbar</p>
-            <p1>270 x 450</p1>
+            <p1>16.4316767252^2 x</p1>
+            <p2>21.2132034356^2</p2>
         </div>
 
         <div id="clear">
         </div>
 
-        <div id="footer">
+        <div id="footer" class="generic">
             <p>Phuter</p>
-            <p1>980 x 70</p1>
+            <p1>31.304951685^2 x 8.36660026534^2</p1>
         </div>
 
         </div>
